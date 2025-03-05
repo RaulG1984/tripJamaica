@@ -14,13 +14,11 @@
 	<div class="container mt-3 col-md-3">
         <h2 class="text-center">Registro de Datos </h2>
         <form action="procesar.php" method="POST">
-            <label class="form-label" for="nombre">gasto:</label>
+            <label class="form-label" for="gasto">gasto:</label>
             <input type="hidden" id="accion" name="accion" value="agregar">
-            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required><br>
-            <label for="telefono">Monto:</label>
-            <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Telefono" required><br>
-            <label for="email">Email:</label>
-            <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo" required><br>
+            <input type="text" class="form-control" id="gasto" name="gasto" placeholder="ingresa tu gasto" required><br>
+            <label for="monto">Monto:</label>
+            <input type="text" class="form-control" id="monto" name="monto" placeholder="ingresa tu monto" required><br>
             <button type="submit" class="btn btn-primary">Agregar</button>
         </form>
     </div>
@@ -29,4 +27,5 @@
 
 </body>
 </html>
+
 
